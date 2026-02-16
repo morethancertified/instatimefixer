@@ -92,6 +92,10 @@ Insta360 cameras embed a proprietary `inst` MP4 box at the end of each video fil
 
 This script finds each of these by scanning for known byte patterns (protobuf field tags, MP4 box type codes, date strings), verifies the existing bytes match what's expected, and overwrites them with the corrected values. The replacement values are always the same byte length, so the file structure is never corrupted.
 
+## Disclaimer
+
+This tool was created with AI assistance. It performs direct binary modifications to video files. **Use at your own risk.** Always back up your files before patching. The authors are not responsible for any data loss or file corruption.
+
 ## License
 
 MIT
