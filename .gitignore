@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+*.pyo
+*.mp4
+*.lrv
+*.bak
+*.insv
+.DS_Store
